@@ -1,0 +1,21 @@
+# Mini Cloud Image Studio - Dependencies
+# Pinned versions for reproducibility
+
+# --- UI ---
+streamlit==1.41.0
+
+# --- AWS SDK ---
+boto3==1.35.99
+
+# --- Image Processing ---
+Pillow==11.0.0
+numpy==2.2.0
+
+# --- Configuration ---
+python-dotenv==1.0.1
+
+# --- Testing ---
+pytest==8.3.4
+hypothesis==6.122.3
+moto[s3,dynamodb]==5.0.26
+pytest-cov==6.0.0
